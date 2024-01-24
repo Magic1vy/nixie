@@ -21,15 +21,6 @@ const surveyQuestions = [
     text: "Rate the website's performance on a scale from 1 to 10.",
     type: "number"
     }
-    // {
-    // text: "Как вы оцениваете качество нашего сервиса?",
-    // type: "radio",
-    // options: ["Отлично", "Хорошо", "Удовлетворительно", "Плохо"]
-    // },
-    // {
-    // text: "Что мы могли бы улучшить?",
-    // type: "text"
-    // },
 ];
 
 export default surveyQuestions;

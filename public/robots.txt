@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /boudoir
-
-Sitemap: https://nixie-photo.com/sitemap.xml

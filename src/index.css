@@ -1,0 +1,11 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Passions+Conflict&display=swap');
+
+body {
+  background: #0F0F0F url("./assets/bg.jpg") no-repeat top left / cover;
+  font-family: 'Josefin Sans', sans-serif;
+  color-scheme: dark;
+}
+.mobile{
+  display: none;
+}

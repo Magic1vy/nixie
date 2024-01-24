@@ -1,0 +1,48 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(44, 29, 14, 0.797);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.modal_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../../../assets/bg.jpg');
+    width: 60%;
+    height: 50%;
+    padding: 50px;
+    border-radius: 2px;
+    position: relative;
+}
+.submit-review{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.close-btn{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 3;
+}
+@media all and (max-width: 768px) {
+    .close-btn{
+        display: none;
+    }
+}

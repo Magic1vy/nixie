@@ -49,10 +49,6 @@ function Footer (){
                 </a>
             </section>
             </section>
-            {/* <section className="rights-container">
-                <button className="footer-btn rights-btn"  onClick={() => navigate('/privacy-policy')}>Privacy Policy</button>
-                <button className="footer-btn rights-btn"  onClick={() => navigate('/terms-of-use')}>Terms Of Use</button>
-            </section> */}
             <section>
                 <p className="rights">&copy; 2024 Nixie Photo. All rights reserved. Website development by <a href='https://valeriia-code.com/' target="_blank" rel="noreferrer">Valeriia Code</a></p>
             </section>
